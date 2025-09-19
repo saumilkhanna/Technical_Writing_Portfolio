@@ -75,7 +75,7 @@ Technical_Writting_Portfolio/
 
 ## 📬 Contact
 - *Author:* Saumil Khanna  
-- *Email:* saumil.khanna@example.com  
+- *Email:* saumilkhanna@gmail.com  
 - *LinkedIn:* [linkedin.com/in/saumilkhanna](https://linkedin.com/in/saumilkhanna)  
 - *GitHub:* [github.com/saumilkhanna](https://github.com/saumilkhanna)  
 
