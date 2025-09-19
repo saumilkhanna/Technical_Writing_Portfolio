@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="mkdocs-quickstart">
+  <title>Quick start: MkDocs</title>
+  <shortdesc>Install MkDocs, create a project, serve locally, and build the site.</shortdesc>
+
+  <taskbody>
+    <prereq>
+      <p>Installed Python 3.x and Internet access.</p>
+    </prereq>
+
+    <steps>
+      <step>
+        <cmd>Check Python and <codeph>pip</codeph>.</cmd>
+        <info>
+          <codeblock>python --version
+pip --version</codeblock>
+        </info>
+      </step>
+      <step>
+        <cmd>Install MkDocs.</cmd>
+        <info><codeblock>python -m pip install mkdocs</codeblock></info>
+      </step>
+      <step>
+        <cmd>Create a new project and enter it.</cmd>
+        <info><codeblock>python -m mkdocs new my-docs
+cd my-docs</codeblock></info>
+      </step>
+      <step>
+        <cmd>Run the development server.</cmd>
+        <info>
+          <codeblock>python -m mkdocs serve</codeblock>
+          <p>Open <xref href="http://127.0.0.1:8000/" scope="external" format="html">http://127.0.0.1:8000/</xref>.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Build the static site.</cmd>
+        <info>
+          <codeblock>python -m mkdocs build</codeblock>
+          <p>Output appears in the <filepath>site/</filepath> folder.</p>
+        </info>
+      </step>
+    </steps>
+
+    <tasktroubleshooting>
+  <p>If the build fails:</p>
+  <dl>
+    <dlentry>
+      <dt>Command not found</dt>
+      <dd><p>Ensure Python is installed and on PATH; reopen the terminal.</p></dd>
+    </dlentry>
+    <dlentry>
+      <dt>Theme not loading</dt>
+      <dd><p>Run <codeph>pip install mkdocs-material</codeph> and rebuild.</p></dd>
+    </dlentry>
+    <dlentry>
+      <dt>Broken links</dt>
+      <dd><p>Run <codeph>mkdocs build --strict</codeph> and fix reported paths.</p></dd>
+    </dlentry>
+  </dl>
+</tasktroubleshooting>
+  </taskbody>
+</task>

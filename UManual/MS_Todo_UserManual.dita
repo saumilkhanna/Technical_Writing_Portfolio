@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ms_todo_user_manual">
+  <title>Microsoft To Do — User manual</title>
+  <shortdesc>Key features and basic actions for individual users.</shortdesc>
+  <conbody>
+    <p>Microsoft To Do helps you create tasks, set reminders, and manage lists across devices.</p>
+
+    <section>
+      <title>Getting started</title>
+      <ul>
+        <li>Go to <xref href="https://to-do.office.com/tasks/" scope="external" format="html">Microsoft To Do (web)</xref>.</li>
+        <li>Sign in with your Microsoft account.</li>
+      </ul>
+    </section>
+
+    <section>
+      <title>Create a task</title>
+      <ol>
+        <li>Select <uicontrol>Add a task</uicontrol>.</li>
+        <li>Type a task name and press <uicontrol>Enter</uicontrol>.</li>
+        <li>Optionally set <uicontrol>Due date</uicontrol>, <uicontrol>Reminder</uicontrol>, or <uicontrol>Repeat</uicontrol>.</li>
+      </ol>
+    </section>
+
+    <section>
+      <title>Edit or delete a task</title>
+      <ul>
+        <li>Select a task to open its details and change fields such as steps, due date, and notes.</li>
+        <li>To remove a task, open the context menu and choose <uicontrol>Delete</uicontrol>.</li>
+      </ul>
+    </section>
+
+    <section>
+      <title>Lists and completion</title>
+      <ul>
+        <li>Create a new list from <uicontrol>New list</uicontrol> and move tasks into it.</li>
+        <li>Mark a task complete by selecting the circle next to its name.</li>
+      </ul>
+    </section>
+
+    <section>
+      <title>Troubleshooting</title>
+      <ul>
+        <li>Can’t sign in? Use Microsoft’s <xref href="https://go.microsoft.com/fwlink/?linkid=2214157" scope="external" format="html">sign-in helper</xref>.</li>
+        <li>503 error on web: try another network or check corporate restrictions.</li>
+      </ul>
+    </section>
+  </conbody>
+</concept>

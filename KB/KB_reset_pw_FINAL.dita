@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="kb-reset-password">
+  <title>Reset your password</title>
+  <shortdesc>Use these steps to reset your account password safely.</shortdesc>
+
+  <taskbody>
+    <prereq>
+      <p>You must know your account email and have access to it.</p>
+      <p>If you cannot sign in, start the password reset from the sign-in page.</p>
+    </prereq>
+
+    <steps>
+      <step>
+        <cmd>Go to the sign-in page.</cmd>
+        <info><xref href="https://www.egcompany.com/signin" scope="external" format="html">Open sign-in</xref></info>
+      </step>
+      <step><cmd>Select <uicontrol>Forgot password?</uicontrol>.</cmd></step>
+      <step><cmd>Enter your account email and select <uicontrol>Continue</uicontrol>.</cmd></step>
+      <step><cmd>Open the verification email and copy the code.</cmd></step>
+      <step><cmd>Paste the code, create a new password, and select <uicontrol>Save</uicontrol>.</cmd></step>
+    </steps>
+
+    <result>
+      <p>You are redirected to your account. Use the new password next time.</p>
+    </result>
+
+    <tasktroubleshooting>
+  <p>Common issues and fixes:</p>
+  <dl>
+    <dlentry>
+      <dt>Reset email not received</dt>
+      <dd>
+        <ul>
+          <li>Check Spam/Junk.</li>
+          <li>Verify the email on your account.</li>
+          <li>Wait 5–10 minutes and request again.</li>
+        </ul>
+      </dd>
+    </dlentry>
+    <dlentry>
+      <dt>Reset link expired</dt>
+      <dd>
+        <p>Request a new link from the sign-in page; links expire quickly for security.</p>
+      </dd>
+    </dlentry>
+    <dlentry>
+      <dt>Can’t sign in after reset</dt>
+      <dd>
+        <p>Clear saved passwords in the browser/app and try the new password again.</p>
+      </dd>
+    </dlentry>
+  </dl>
+</tasktroubleshooting>
+
+    <postreq>
+      <p>Update saved passwords in browsers and apps.</p>
+    </postreq>
+  </taskbody>
+</task>

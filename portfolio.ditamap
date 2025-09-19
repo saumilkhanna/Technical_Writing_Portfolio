@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="portfolio_map" title="Saumil Khanna — Documentation Portfolio">
+  <topichead navtitle="Knowledge Base">
+    <topicref href="KB/KB_reset_pw_FINAL.dita"/>
+  </topichead>
+
+  <topichead navtitle="Quick Start Guides">
+    <topicref href="QSG/MKDocs_quickstart_task.dita"/>
+  </topichead>
+
+  <topichead navtitle="API Docs">
+    <topicref href="API/API_doc_openmeteo.dita"/>
+  </topichead>
+
+  <topichead navtitle="User Manuals">
+    <topicref href="UManual/MS_Todo_UserManual.dita"/>
+  </topichead>
+</map>

@@ -1,0 +1,19 @@
+# `Portfolio/.gitignore`
+gitignore
+# Python/venv
+venv/
+.env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build outputs
+out/
+build/
+site/
+
+# Logs / temp
+*.log
+*.bak
+*.tmp
